@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header>div {
+    padding: 4px 60px 4px 90px;
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+header>div.menuNav{
+    background-color: #F0A83E;
+    padding: 24px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+header div.menuNav nav ul{
+    display: flex;
+    
+}
+
+header div.menuNav nav ul li{
+    margin-left: 12px;
+    color: #FFFFFF;
+}
+
+section.flyer{
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    height: 409px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px 20px 0px 0px;
+}
+
+
+section.flyer h2{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 9px 10px 10px 10px;
+}
+
+section.flyer p{
+    padding: 12px 70px 12px 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+section.flyer button{
+    border: none;
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    padding: 15px 23px;
+    border-radius: 5px;
+    margin-right: 110px;
+}
+
+section div.articulos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 0px 0px;
+}
+
+section div.articulos h2{
+    color: #3C2313;
+    font-size: 40px;
+    padding: 10px
+}
+
+section div.articulos div a {
+    color: #666666;
+    margin-left: 4px;
+    text-decoration: none;
+}
+
+section div.productos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section div.productos article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    background-color: #FBFAF6;
+    margin: 40px;
+}
+
+
+section div.productos article h4{
+    color: #3C2313;
+    text-align: center;
+
+}
+
+section div.productos article p{
+    color: #F0A83E;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0px;
+}
+
+
+/* seccion formulario*/
+
+div.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.form p{
+    color: #3C2313;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+div.form div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.form form div input{
+    border-radius: 15px; 
+    border: none;
+    background-color: #3C2313;
+    padding: 15px 231px 14px 12px;
+    margin-top: 10px;
+}
+
+
+
+div.form div.buttonReset button{
+    margin-top: 30px;
+    border-radius: 15px;
+    color:#FFFFFF;
+    background: #8A8787;
+    padding: 8px 25px;
+    border: none;
+}
+
+div.form div.buttonSubmit button{
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 15px;
+    color:#FFFFFF;
+    background: #F0A83E;
+    padding: 8px 33px;
+    border: none;
+}
+
+section.banner{
+    background-color: #F0A83E;
+    padding: 20px 23px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+section.banner div{
+    display: flex;
+    padding-left: 20px;
+}
+section.banner div>img{
+    background-size: cover;
+}
+section.banner div>p{
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+section.banner>form input{
+    border: none;
+    border-radius: 14px;
+    padding: 15px 148px 15px 8px;
+}
+
+section.banner>form button{
+    border: none;
+    border-radius: 15px;
+    color: #FFFFFF;
+    background-color: #3C2313;
+    padding: 11px 10px;
+}
+
+
+
+footer section{
+    background-color: #3C2313;
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer section div article{
+    display: flex;
+    padding: 25px 80px;
+}
+
+footer section div article div{
+    padding: 5px 30px;
+}
+footer section div article div h4{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer section div article div p{
+    color: #dfdfdf;
+}
+footer section>img {
+    height: 23px;
+    margin: 160px 100px 130px 0px;
+}
+footer>p{
+    color: #FFFFFF;
+    background-color: #222222;
+    text-align: center;
+    padding: 4px 0px;
+}
